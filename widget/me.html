@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Document</title>
+	<style type="text/css">
+		.banner .swiper-slide img{width:100%;float: left;height: 3.5rem;}
+    	.banner .swiper-container {height: 3.5rem;} 
+       	.jpfy .swiper-slide img{float: left;}
+    </style>
+</head>
+<body>
+	<div class="header clearfix d-header">
+		<div class="nav w">
+			<span>个人中心</span>
+		</div>
+	</div>
+	<div class="all">
+		<div class="banner">
+			<div class="me-bgc">
+				<div class="me-gr">
+					<img src="images/me.jpg" alt="" />
+					<p>编辑资料</p>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<ul>
+				<li>
+					<a href="###">
+						<div class="info_ico">
+							<img src="images/icon/iconP1.png" alt="" />
+						</div>	
+						<p class="p">我的钱包</p>
+					</a>
+				</li>
+				<li>
+					<a href="sc.html">
+						<div class="info_ico">
+							<img src="images/icon/iconP2.png" alt="" />
+						</div>	
+						<p class="p">收藏</p>
+					</a>
+				</li>
+				<li>
+					<a href="inform.html">
+						<div class="info_ico">
+							<img src="images/icon/iconP3.png" alt="" />
+						</div>	
+						<p class="p">消息</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="knull"></div>
+		<div class="info-conten w">
+			<ul>
+				<li>
+					<a href="yy.html">
+						<div class="p">
+							<div class="p-ico1">
+								<img src="images/icon/iconP4.png" alt="" />
+							</div>
+							<div class="p-ico2"><span>我的预约</span></div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="room-amount.html">
+						<div class="p">
+							<div class="p-ico1">
+								<img src="images/icon/iconP8.png" alt="" />
+							</div>
+							<div class="p-ico2"><span>我的在售房源</span></div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<div class="p">
+							<div class="p-ico1">
+								<img src="images/icon/icon7.png" alt="" />
+							</div>
+							<div class="p-ico2"><span>我的看房记录</span></div>
+						</div>
+					</a>
+				</li>
+				<li class="info-li">
+					<a href="###">
+						<div class="p">
+							<div class="p-ico1">
+								<img src="images/icon/iconP6.png" alt="" />
+							</div>
+							<div class="p-ico2"><span>联系客服</span></div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="knull"></div>
+		<div class="info-conten w">
+			<ul>
+				<li>
+					<a href="###">
+						<div class="p">
+							<div class="p-ico1">
+								<img src="images/icon/iconP7.png" alt="" />
+							</div>
+							<div class="p-ico2"><span>设置</span></div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer clearfix d-footer">
+	    <div class="hr-color"></div>		
+	    <div class="box-null"></div>
+		<div class="nav-footer w clearfix">
+			<ul class="aul">
+				<li><a href="index.html"><span class="iconfont icon-shouye1-copy"></span><div>首页</div></a></li>
+				<li><a href="yy.html" ><span class="iconfont icon-yuyueguahao"></span><div>预约</div></a></li>
+				<li><a href="shiping.html"><img src="images/icon/icon9.png"><span></span><div class="fon-p">视频</div></a></li>
+				<li><a href="baodian.html"><span class="iconfont icon-shu"></span><div>宝典</div></a></li>
+				<li><a href="me.html" class="activ-ico"><span class="iconfont icon-wode"></span><div>我</div></a></li>
+			</ul>
+		</div>
+		<div class="box-null"></div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/active.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script>
+	$(function() {
+	    var mySwiper = new Swiper ('#swiper1', {
+		    // direction: 'vertical', // 垂直切换选项
+		    direction:'horizontal',// 横向切换选项
+    		initialSlide :0, // 初始化跳到第几个轮播图
+   			loop : true,
+			speed : 1000,
+			autoplayDisableOnInteraction : false,
+			autoplay : {
+				delay : 1000,
+				stopOnLastSlide : false,
+				disableOnInteraction : true,
+			},
+		    
+		    // 如果需要分页器
+		    pagination: {
+		      el: '.swiper-pagination',
+		    },
+		    
+		    // 如果需要前进后退按钮
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		      autoplay: 1000, // 自动轮播
+		      speed:1000,
+		    },
+		    
+		    // 如果需要滚动条
+		    scrollbar: {
+		      el: '.swiper-scrollbar',
+		    },
+		});
+// ------------------------------------------------------------
+		var swiper1 = new Swiper('#swiper2',{
+			slidesPerView: 'auto',
+			loop : true,
+			speed : 1000,
+		      spaceBetween: 30,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		})       
+
+	});
+</script>
+
+</html>

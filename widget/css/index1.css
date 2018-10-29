@@ -1,0 +1,589 @@
+/*
+* @Author: hdx
+* @Date:   2018-10-15 15:57:08
+* @Last Modified by:   hdx
+* @Last Modified time: 2018-10-19 16:29:07
+*/
+.all{
+    padding-bottom: 16.5%;
+}
+/* 首页 轮播图 */
+.banner .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 0.27rem;
+    height: 0.44rem;
+    margin-top: -0.22rem;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 0.5rem 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner .swiper-pagination {
+    position: absolute;
+    text-align: right;
+    -webkit-transition: .3s opacity;
+    -o-transition: .3s opacity;
+    transition: .3s opacity;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+.banner .swiper-container-vertical>.swiper-pagination-bullets {
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+.banner .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 1.5rem 0.04rem 0.02rem 0.04rem;
+    display: block;
+    float: left;
+}
+.banner .swiper-pagination-bullet {
+    width: 0.25rem;
+    height: 0.06rem;
+    display: inline-block;
+    border-radius: 0;
+    background: #000;
+    opacity: .2;
+    box-sizing: border-box;
+}
+.banner .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #C9AF00;
+}
+/* ------------------------------------------------------------------- */
+/* 首页 index的倒计时 dtime*/
+.dtime{
+    position: relative;
+    border-radius: 0.1rem;
+    background:repeating-linear-gradient(#4F4F4F 0%, #020202 100%); 
+    height: 1.5rem;
+    /* line-height: 1.5rem; */
+    box-sizing: border-box;
+}
+.dtime-cont div{
+    float: left;
+    font-size: 0.28rem;
+    color: #FFFFFF;
+    margin-left: 0.1rem;
+    box-sizing: border-box;
+}
+div.look{
+    /* width: 1.4rem; */
+    /* width: 21%; */
+    /* height: 0.45rem; */
+    line-height: 160%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #C9AF00;
+    border-radius: 0.2rem;
+    top: 50%;
+    margin-top: 0.5rem;
+    margin-left: 0.25rem;
+    padding: 0 0.1rem;
+}
+.dtime-cont div.fonts{
+    font-size: 0.9rem;
+    font-family: "方正姚体";
+    font-weight: 800;
+    background: linear-gradient(-3deg,#FFF19C 50%,#D2B800 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -0.05rem;
+    margin-top: 0.24rem;
+}
+.dtime-cont{
+    left: 50%;
+    margin-left: 0.3rem;
+}
+.dtime-cont .fon-mar{
+    box-sizing: border-box;
+    margin-top: 11.5%;
+}
+
+/* 精品房源 .jpfy */
+.jpfy h2{
+    line-height: 0.8rem;
+    color: #545454;
+}
+.void{
+    height: 1.8rem;
+    position: relative;
+    overflow: hidden;
+}
+.jpfy ul{
+    width: 100%;
+    position: absolute;
+
+}
+.jpfy ul li{
+    position: relative;
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 0.2rem;
+}
+.jpfy img{
+    width: 100%;
+    position: relative;
+    height: 1.8rem;
+    vertical-align: bottom;
+}
+.img-yy{
+    height: 100%;
+}
+.boximg{
+    height: 4.1rem;
+}
+.img-yy h2{
+    line-height: 0.8rem;
+    color: #545454;
+}
+.img-yy img{
+    width: 100%;
+}
+.jpfy img.pic-btn{
+    position: absolute;
+}
+
+.jpfy img.pic-btn {
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    top: 50%;
+    margin-top: -0.3rem;
+    left: 0;
+    left: 50%;
+    margin-left: -0.2rem;
+}
+/* --------------------------------------------------------- */
+    .jpfy .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .jpfy .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      width: 36%;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .jpfy .swiper-slide:nth-child(2n) {
+      /* width: 60%; */
+      width: 36%;
+    }
+    .jpfy .swiper-slide:nth-child(3n) {
+      /* width: 40%; */
+      width: 36%;
+    }
+
+/* 宝典 */
+.shangbiao li{
+    float: left;
+    width: 25%;
+    padding: 4%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 0;
+}
+.pico h4{
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    color: #545454;
+}
+.pico img{
+    width: 100%;
+}
+.g-null{
+    background-color: #F6F6F6;
+    height: 0.3rem;
+}
+.w-null{
+    background-color: #FFFFFF;
+    height: 0.3rem;
+}
+.list-top,.list-btom{
+    width: 100%;
+}
+.list-top .lf,.list-top .ri{
+    float: left;
+    width: 50%;
+    height: 2.2rem;
+    box-sizing: border-box;
+}
+.list-top{
+    box-sizing: border-box;
+    padding: 0% 0 2% 0;
+    width: 100%;
+}
+.list-top .lf img{
+    width: 100%;
+    height: 100%;
+}
+.list-top .ri{
+    box-sizing: border-box;
+    padding: 0.7rem 0.2rem;
+    color: #535353;
+    font-size: 0.28rem;
+}
+.list-btom{
+    color: #989898;
+    font-size: 0.28rem;
+    padding-bottom: 0.1rem;
+    box-sizing: border-box;
+}
+.list-btom span{
+    margin-right: 0.1rem;
+}
+
+/* 直播预告 kapian */
+.kapian{
+    box-shadow: 1px 1px 15px 1px #ccc;
+    border-radius: 0.1rem;    
+    padding: 0.15rem;
+    box-sizing: border-box;
+    margin-top: 0.45rem;
+    height: 2.7rem;
+}
+.kapian span{
+    color: #6A6A6A;
+    font-size: 0.01rem;
+    letter-spacing: 0.008rem;
+}
+.kapian .fl{
+    width: 2.1rem;
+}
+.kapian .fl ul{
+    width: 100%;
+}
+.kapian .fl li{
+    display: inline-block;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0.05rem 0;
+    width: 100%;
+}
+.kapian .fl .lf{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+}
+.kapian .fl .lr{
+     white-space:nowrap;
+     width: 50%;
+}
+.kapian .fl .lf img{
+    width: 100%;
+    height: 100%;
+}
+.kapian .fr{
+    width: 3.9rem;
+    box-sizing: border-box;
+    height: 1.2rem;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+.kapian .fr .top,.kapian .fr .botm{
+    text-align: center;
+    color: #6A6A6A;
+    font-size: 0.01rem;
+    letter-spacing: 0.008rem;
+}
+.kapian .fr .botm .zi{
+    margin: 8% 0.1% 0 0;
+}
+.kapian .fr .botm .fon{
+    font-family: "方正姚体";
+    font-size: 0.66rem;
+    font-weight: 800;
+    background: linear-gradient(#FFDB00 10%,#CBB001 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.kapian .fr .botm .timout{
+    float: left;
+}
+.kapian .fr .botm div{
+    margin: -0.024rem;
+}
+/* ---------------------------------------------- */
+.kapian .fr .now-zb{
+    background-color: #C9AF00;
+    width: 2rem;
+    font-size: 0.3rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    margin: auto;
+    margin-top: 0.35rem;
+}
+.kapian .fr .end{
+    background-color: #B3B3B3;
+}
+.now-zb a{
+    color: #FFF;
+}
+.all .kapian:last-child{
+    /* margin-bottom: 0.5rem; */
+}
+
+/* 我 */
+.nav{
+    color: #FFF;
+    text-align: center;
+}
+.me-bgc{
+    position: relative;
+    width: 100%;
+    background: url(../images/me_bgc.jpg) no-repeat;
+    background-size: 100%;
+    height: 3.6rem;
+    box-sizing: border-box;
+}
+.me-gr{
+    width: 1.5rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    top: 50%;
+    margin-top: -0.7rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.7rem;    
+}
+.me-gr img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+}
+.me-gr p{
+    color: #FFF;
+    padding: 0.1rem 0;
+}
+
+.info{
+    width: 100%;
+}
+.info ul{
+    display: block;
+    width: 100%;
+    padding: 0.2rem 0;
+    height: 0.9rem;
+}
+.info li{
+    position: relative;
+    float: left;
+    border-right: 0.01rem solid #CCCCCC;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+.info_ico{
+    width: 0.5rem;
+    height: 0.49rem;
+    box-sizing: border-box;
+    left: 50%;
+    position: absolute;
+    margin-left: -0.25rem;
+}
+.info_ico img{
+    width: 100%;
+    height: 100%;
+}
+.info p,.p-ico2 span{
+    color: #545454;
+    font-size: 0.3rem;
+    font-weight: 400;
+}
+.info p{
+    padding-top: 0.6rem;
+}
+.info li:last-child{
+    border: 0;
+}
+
+.info-conten li{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.01rem solid #CCCCCC;
+}
+.info-conten li.info-li{
+    border: 0;
+}
+.p-ico1,.p-ico2{
+    float: left;
+    line-height: 0.8rem;
+}
+.p-ico1{
+    width: 0.6rem;
+    height: 0.6rem;
+    padding-top: 0.1rem;
+    margin-right: 0.1rem;
+}
+.p-ico1 img{
+    width: 100%;
+    height: 100%;
+}
+.info-conten .p{
+    width: 100%;
+    height: 100%;
+    padding: 0.1rem 0.1rem;
+    box-sizing: border-box;
+}
+.knull{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 0.2rem;
+}
+
+.fl-pg{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.fl-pg .list{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.fl-pg .list img,.pg-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.pg-banner{
+    width: 100%;
+    height: 4rem;
+}
+.b{
+    border-top: 0.01rem solid #E6E6E6;
+}
+
+.yy-fl .list {
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.yy-fl .list img{
+    width: 100%;
+    height: 100%;
+}
+
+.yy .lf{
+    width: 36%;
+}
+.yy .ri{
+    width: 64%;
+    padding: 0 0.2rem;
+}
+.yy .ri h1{
+    font-size: 0.3rem;
+}
+.yy-cont ul{
+    display: inline-block;
+    width: 100%;
+    height: 0.3rem;
+    padding: 0.05rem 0;
+}
+.yy-cont li{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    border-right: 0.01rem solid #CCC;
+    padding: 0 0.1rem 0 0.1rem;
+    color: #ccc;
+}
+.yy-cont li:last-child{
+    border-right: 0;
+}
+.yy-cont li:first-child{
+    padding-left: 0;
+}
+.yy-cont p{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #ccc;
+}
+.yy-cont p img{
+    width: 0.3rem;
+    height: 0.4rem;
+}
+.five{
+    width: 1.2rem;
+    margin-top: 0.1rem;
+    border: 0.01rem solid #ccc;
+}
+.ni-yy .lf{
+    font-size: 0.35rem;
+    font-weight: 800;
+    color: #CDB81B;
+    font-family: "方正姚体";
+    padding: 0.05rem 0;
+    box-sizing: border-box;
+    height: 0.5rem;
+}
+.ni-yy .lr{
+    float: right;
+}
+.yykf{
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: #CDB81B;
+    color: #fff;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.4rem;
+}
+.yylf{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #CDB81B;
+    text-align: center;
+    line-height: 1.27rem;
+}
+.yylf-bgc{
+    background-color: #535353;
+}
+.yylf-img{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.25rem;
+    left: 50%;
+    margin-left: -1rem;
+    box-sizing: border-box;
+}
+.yylf-img img{
+    width: 100%;
+    height: 100%;
+}
+.yylf span{
+    color: #fff;
+    font-size: 0.28rem;
+}

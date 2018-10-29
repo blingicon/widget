@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Document</title>
+	<style type="text/css">
+		.banner .swiper-slide img{width:100%;float: left;height: 3.5rem;}
+    	.banner .swiper-container {height: 3.5rem;} 
+       	.jpfy .swiper-slide img{float: left;}
+    </style>
+</head>
+<body style="background-color: #F6F6F6;">
+	<div class="header clearfix d-header">
+		<div class="nav w">
+			<div class="fl-pg">
+				<span>支付</span>
+				<div class="list">
+					<ul>
+						<li><a href="###"><img src="images/icon/icon_back.png" alt="" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="all">
+		<!-- <div class="nav-smal w clearfix">
+			<ul class="ad">
+				<li><a href="index.html" class="activ-font activ activ-bor" ><span>房小蜜</span></a></li>
+				<li><a href="###" class="activ" ><span>买房</span></a></li>
+				<li><a href="###" class="activ" ><span>卖房</span></a></li>
+				<li><a href="zhiboyugao.html" class="activ" ><span>直播预告</span></a></li>
+			</ul>
+		</div> -->		
+		<div class="money"><span class="show">￥<span class="num">100.00</span></span></div>
+		<div class="information">	
+			<div class="g-k1"></div>		
+			<form action="">
+				<ul  class="w">
+					<li class="pay-l">
+						<div class="inf-lf"><img src="images/icon/icon_wxPay.png" alt="" /></div>
+						<div class="inf-ri pay"><span>微信支付</span></div>
+						<div class="pitch payactiv"></div>
+					</li>
+					<li class="pay-l">
+						<div class="inf-lf"><img src="images/icon/icon_zfbPay.png" alt="" /></div>
+						<div class="inf-ri pay"><span>支付宝支付</span></div>
+						<div class="pitch"></div>
+					</li>
+				</ul>
+				<div class="g-k1"></div>
+				<div class="hint">
+					<p class="titl"><span>诚意金说明：</span></p>
+					<p class="titl"><span>诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，诚意金是表示你的诚心，</span></p>
+				</div>	
+				<div class="footer clearfix d-footer">
+	    			<button type="submit" class="subtn">确认支付</button>
+				</div>
+							
+			</form>	
+			<div class="g-kl"></div>				
+		</div>
+
+	</div>	
+	
+</body>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/active.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script>
+	$(function() {
+	    var mySwiper = new Swiper ('#swiper1', {
+		    // direction: 'vertical', // 垂直切换选项
+		    direction:'horizontal',// 横向切换选项
+    		initialSlide :0, // 初始化跳到第几个轮播图
+   			loop : true,
+			speed : 1000,
+			autoplayDisableOnInteraction : false,
+			autoplay : {
+				delay : 1000,
+				stopOnLastSlide : false,
+				disableOnInteraction : true,
+			},
+		    
+		    // 如果需要分页器
+		    pagination: {
+		      el: '.swiper-pagination',
+		    },
+		    
+		    // 如果需要前进后退按钮
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		      autoplay: 1000, // 自动轮播
+		      speed:1000,
+		    },
+		    
+		    // 如果需要滚动条
+		    scrollbar: {
+		      el: '.swiper-scrollbar',
+		    },
+		});
+// ------------------------------------------------------------
+		var swiper1 = new Swiper('#swiper2',{
+			slidesPerView: 'auto',
+			loop : true,
+			speed : 1000,
+		      spaceBetween: 30,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		})       
+
+	});
+	
+</script>
+
+</html>

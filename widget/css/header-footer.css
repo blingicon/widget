@@ -1,0 +1,145 @@
+/*
+* @Author: hdx
+* @Date:   2018-10-15 09:50:36
+* @Last Modified by:   hdx
+* @Last Modified time: 2018-10-26 11:13:54
+*/
+/* 头部 */
+.header{
+    width: 100%;
+    height: 1rem;
+    background-color: #535353;
+}
+.nav{
+    box-sizing: border-box;
+    padding: 0.2rem 0;
+    height: 1rem;
+    line-height: 0.6rem;
+    font-size: 0.37rem;
+}
+.list,.d-return-top,.imge,.map{
+    float: left;
+}
+.list select{
+    font-size: 0.4rem;
+    background: #535353;
+    border: 0;
+    color: #fff;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 8.5%;
+    transform: translate(-50%, -50%);
+    /* 隐藏select的下拉图标 */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* 清除select的边框样式 */
+    border: none;
+    /* 清除select聚焦时候的边框颜色 */
+    outline: none;
+}
+.fl,.fr,.map span{
+    color: #FFFFFF;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.imge{
+    margin-right: 0.2rem;
+    width: 30%;
+    height: 85%;
+    float: left;
+}
+.imge img{
+    border: 0;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.d-return-top{
+    margin-left: 0.2rem;
+    /* font-size: 0.1rem; */
+    font-size: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translate(300%, -50%);
+}
+.nav-smal{
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.8rem;
+    background-color: #FFFFFF;
+    font-size: 0.3rem;
+    box-sizing: border-box;
+}
+.nav-smal li{
+    float: left;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.activ-font{
+    color: #CAAE02;
+    font-family: "黑体";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.42rem;
+}
+.activ-bor{
+    display: inline-block;
+    border-bottom: 2px solid #CAAE02;
+    color: #CAAE02;
+}
+/* 底部 */
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.27rem;
+    background-color: #F6F6F6;
+    z-index: 1;
+    bottom: 0;
+    position: fixed;
+}
+.nav-footer ul{    
+    width: 100%;
+}
+.nav-footer li{
+    position: relative;
+    float: left;
+    width: 1.4rem;
+    text-align: center;
+} 
+.nav-footer li a img {
+    position: absolute;
+    width: 1rem;
+    top: -0.5rem;
+    left: 0.2rem;
+    z-index: 1;
+}
+.nav-footer li div{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.nav-footer li span{
+    display: block;
+    height: 0.66rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+/* .nav-footer li a:hover{
+    color: #C9AF00;
+}
+.nav-footer li a:link{
+    color: #535353;
+} */
+.activ-ico{
+    color: #C9AF00;
+}
+
+/* 中间的白空隙 */
+.box-null{
+    height: 0.15rem;
+}
+.hr-color{
+    border-bottom: 1px solid #E6E6E6;    
+}
